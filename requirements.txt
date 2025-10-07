@@ -1,3 +1,13 @@
+# твои пакеты
 streamlit==1.37.1
 faster-whisper==1.0.3
 requests==2.32.3
+
+# фиксы совместимости со Streamlit
+rich==13.7.1
+markdown-it-py==3.0.0
+mdurl==0.1.2
+Pygments==2.19.1
+
+# чтобы whisper/ctranslate2 не умерли на numpy 2.x
+numpy>=1.26,<2
